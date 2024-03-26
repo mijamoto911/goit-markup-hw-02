@@ -1,133 +1,129 @@
-:root{
-    --primary-font: "Raleway", sans-serif;
-    --primary-black-color: #212121;
-    --secondary-accent-color: #404BBF;
-    --active-link-color: #404BBF;
-    --background-color: #2E2F42;
+:root {
+  --primary-font: "Raleway", sans-serif;
+  --primary-black-color: #212121;
+  --secondary-accent-color: #404bbf;
+  --active-link-color: #404bbf;
+  --background-color: #2e2f42;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #212121;
-    background-color: #ffffff;
-
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
 }
-ul, ol {
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-.logo{
-    font-family: var(--primary-font);
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
+.logo {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
 }
-.link{
-    color: var(--primary-black-color);
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #2E2F42;
-    letter-spacing: 2%;
+.link {
+  color: var(--primary-black-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 2%;
 }
-.mail{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #434455;
-    letter-spacing: 2%;
+.mail {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 2%;
 }
-.tel{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #434455;
-    letter-spacing: 2%;
+.tel {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 2%;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
-    color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 .page-nav .link:active {
-    color: var(--active-link-color);
+  color: var(--active-link-color);
 }
-.header-divider{
-    border-top: 1px solid #E7E9FC;
-}
-
-.header-title{
-    background-color: var(--background-color);
-}
-.page-title{
-    font-size: 56px;
-    line-height: 60px;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 2%;
-}
-.button{
-    background-color: #4D5AE5;
-    color: #ffffff;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 4%;
-    text-align: center;
-}
-.title{
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 2%;
-}
-.text{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: 2%;
-}
-.section-title{
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: 700;
-    letter-spacing: 2%;
-    text-align: center;
-}
-.page-footer{
-    background-color: var(--background-color);
-}
-.footer-logo{
-    font-family: var(--primary-font);
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
-    color: #ffffff;
-}
-.footer-text{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: 2%;
-    color: #ffffff;
-}
-.cards{
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-.description{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: 2%;
-    color: #434455;
-
+.header-divider {
+  border-top: 1px solid #e7e9fc;
 }
 
-    
-
+.header-title {
+  background-color: var(--background-color);
+}
+.page-title {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2%;
+}
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4%;
+  text-align: center;
+}
+.title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 2%;
+}
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.page-footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+.cards {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: #434455;
+}
