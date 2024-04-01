@@ -1,15 +1,27 @@
 :root {
-  --primary-font: "Raleway", sans-serif;
-  --primary-black-color: #212121;
-  --secondary-accent-color: #404bbf;
-  --active-link-color: #404bbf;
-  --background-color: #2e2f42;
+  --black: #212121;
+  --cornflower: #e7e9fc;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --dairy: #fcfcfc;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --white: #fff;
+}
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 ul,
 ol {
@@ -19,105 +31,144 @@ a {
   text-decoration: none;
 }
 .logo {
-  font-family: var(--primary-font);
-  font-size: 18px;
-  line-height: 21px;
+  font-family: var(--second-family);
   font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+.span {
+  color: var(--iris);
 }
 .link {
-  color: var(--primary-black-color);
-  font-size: 16px;
-  line-height: 24px;
+  font-family: var(--font-family);
   font-weight: 500;
-  color: #2e2f42;
-  letter-spacing: 2%;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .contacts {
-  font-size: 16px;
-  line-height: 24px;
+  font-family: var(--font-family);
   font-weight: 400;
-  color: #434455;
-  letter-spacing: 2%;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.contacts:hover {
+  color: var(--ocean);
 }
 
 .page-nav .link:hover,
 .page-nav .link:focus {
-  color: var(--secondary-accent-color);
+  color: var(--iris);
 }
 .page-nav .link:active {
-  color: var(--active-link-color);
-}
-.header-divider {
-  border-top: 1px solid #e7e9fc;
+  color: var(--iris);
 }
 
 .section-title {
-  background-color: var(--background-color);
+  background-color: var(--navy-blue);
 }
 .page-title {
   font-size: 56px;
   line-height: 60px;
   font-weight: 400;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 2%;
+  color: var(--white);
+  texletter-spacing: 0.02em;
 }
 .button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  line-height: 24px;
-  font-size: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--iris);
+
+  font-family: var(--font-family);
   font-weight: 500;
-  letter-spacing: 4%;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
   text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--iris);
+  cursor: pointer;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
+  background: var(--cloud);
+}
+.btn:hover {
+  background-color: var(--ocean);
+  color: var(--white);
 }
 .title {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .text {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .section-title {
   font-size: 36px;
   line-height: 40px;
   font-weight: 700;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .page-footer {
-  background-color: var(--background-color);
+  background-color: var(--navy-blue);
+}
+.logo-footer {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
 }
 .footer-logo {
-  font-family: var(--primary-font);
+  font-family: var(--second-family);
   font-size: 18px;
   line-height: 21px;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--white);
 }
 .footer-text {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  letter-spacing: 2%;
-  color: #ffffff;
+  letter-spacing: 0.02em;
+  color: var(--white);
 }
 .cards {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  letter-spacing: 2%;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .description {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  letter-spacing: 2%;
-  color: #434455;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }

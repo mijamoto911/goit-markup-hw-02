@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
@@ -15,45 +15,41 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="logo" href="/"></a>
-      <img src="./images/header-logo.png" alt="logo" />
       <nav>
+        <a class="logo" href="./index.html"
+          ><span class="span">web</span>studio</a
+        >
         <ul class="page-nav">
           <li>
-            <a
-              class="link"
-              href="http://127.0.0.1:5500/portfolio.html#clubs"
-              target="_blank"
-              >Studio</a
-            >
+            <a class="link" href="second-page.html" target="_blank">Studio</a>
           </li>
           <li>
-            <a
-              class="link"
-              href="http://127.0.0.1:5500/portfolio.html#portfolio"
-              target="_blank"
-              >Portfolio</a
-            >
+            <a class="link" href="portfolio.html" target="_blank">Portfolio</a>
           </li>
           <li><a class="link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel" href="tel:+0110001111111">+11 (000) 111-11-11</a>
+        <ul>
+          <li>
+            <a class="contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="contacts" href="tel:+0110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </address>
     </header>
-    <div class="header-divider"></div>
     <main>
       <section>
-        <button class="button" type="button">All</button>
-        <button class="button" type="button">Web Site</button>
-        <button class="button" type="button">App</button>
-        <button class="button" type="button">Design</button>
-        <button class="button" type="button">Marketing</button>
-      </section>
-
-      <section>
+        <h1 hidden>Advantages</h1>
+        <button class="btn" type="button">All</button>
+        <button class="btn" type="button">Web Site</button>
+        <button class="btn" type="button">App</button>
+        <button class="btn" type="button">Design</button>
+        <button class="btn" type="button">Marketing</button>
         <ul class="images">
           <li>
             <img
@@ -62,7 +58,7 @@
               width="360"
               height="360"
             />
-            <h3 class="cards">Banking App Interface Concept</h3>
+            <h2 class="cards">Banking App Interface Concept</h2>
             <p class="description">app</p>
           </li>
           <li>
@@ -72,7 +68,7 @@
               width="360"
               height="360"
             />
-            <h3 class="cards">Cashless Payment</h3>
+            <h2 class="cards">Cashless Payment</h2>
             <p class="description">Marketing</p>
           </li>
           <li>
@@ -82,7 +78,7 @@
               width="360"
               height="360"
             />
-            <h3 class="cards">Meditation App</h3>
+            <h2 class="cards">Meditation App</h2>
             <p class="description">app</p>
           </li>
         </ul>
@@ -90,38 +86,43 @@
       <section>
         <ul class="images">
           <li>
-            <img
-              src="./images/apps/taxi-service.jpg"
-              alt="taxi service"
-              width="360"
-              height="360"
-            />
-            <h3 class="cards">Taxi Service</h3>
-            <p class="description">Marketing</p>
+            <a href="">
+              <img
+                src="./images/apps/taxi-service.jpg"
+                alt="taxi service"
+                width="360"
+                height="360"
+              />
+              <h3 class="cards">Taxi Service</h3>
+              <p class="description">Marketing</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/apps/screen-app.jpg"
-              alt="screen illustrations"
-              width="360"
-              height="360"
-            />
-            <h3 class="cards">Screen Illustrations</h3>
-            <p class="description">Design</p>
+            <a href="">
+              <img
+                src="./images/apps/screen-app.jpg"
+                alt="screen illustrations"
+                width="360"
+                height="360"
+              />
+              <h3 class="cards">Screen Illustrations</h3>
+              <p class="description">Design</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/apps/course-app.jpg"
-              alt="online courses"
-              width="360"
-              height="360"
-            />
-            <h3 class="cards">Online Courses</h3>
-            <p class="description">Marketing</p>
+            <a href="">
+              <img
+                src="./images/apps/course-app.jpg"
+                alt="online courses"
+                width="360"
+                height="360"
+              />
+              <h3 class="cards">Online Courses</h3>
+              <p class="description">Marketing</p>
+            </a>
           </li>
         </ul>
       </section>
-
       <section>
         <ul class="images">
           <li>
@@ -158,8 +159,9 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="footer-logo" href="/"></a>
-      <img src="./images/footer-logo.png" alt="logo" />
+      <a class="logo-footer" href="./index.html"
+        ><span class="span">web</span>studio</a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
